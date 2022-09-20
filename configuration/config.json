@@ -1,0 +1,218 @@
+{
+  "Trade Outbound Channel": "922938663539703818",
+  "Trade Inbound Channel": "937290997287763988",
+  "Trade Completed Channel": "933381839635234907",
+  "RBXFLIP Notifier Channel": "1",
+  "Discord ID": "922946332237389874",
+  "Who to ping": "922946332237389874",
+  "env": {
+    "cookie": [
+      ""
+    ],
+    "Discord Bot Token": "",
+    "Rolimons Token": [
+      ""
+    ],
+    "key": "if u have more than 1 whitelist",
+    "AeValues Key": "hihi",
+    "RBXFLIP token": "useless for now"
+  },
+  "Minimum Ratio": 1.025,
+  "Maximum Ratio": 1.3,
+  "rapboost": 1,
+  "Custom ratios enabled": true,
+  "Custom ratios": {
+    "500": {
+      "min": 1.1,
+      "max": 1.4
+    },
+    "5000": {
+      "min": 1.03,
+      "max": 1.22
+    },
+    "10000": {
+      "min": 1.02,
+      "max": 1.1
+    },
+    "20000": {
+      "min": 1.02,
+      "max": 1.08
+    },
+    "50000": {
+      "min": 1.02,
+      "max": 1.06
+    },
+    "100000": {
+      "min": 1.03,
+      "max": 1.08
+    },
+    "200000": {
+      "min": 1.02,
+      "max": 1.06
+    },
+    "300000": {
+      "min": 1.01,
+      "max": 1.06
+    },
+    "500000": {
+      "min": 1.02,
+      "max": 1.05
+    },
+    "1000000": {
+      "min": 1.01,
+      "max": 1.03
+    }
+  },
+  "Rap/Value Ratios": {
+    "Valued items": {
+      "enabled": false,
+      "Minimum Ratio": 1.02,
+      "Maximum Ratio": 1.15
+    },
+    "Rap items": {
+      "enabled": false,
+      "Minimum Ratio": 1.02,
+      "Maximum Ratio": 1.15
+    }
+  },
+  "Dont op in downgrades": false,
+  
+  "Auto Update Custom Values From Link":false,
+  "Custom Values Link":"",
+
+	"Custom values receive": {
+		
+	},
+	"Custom values send": {
+		
+	},
+  "nogucci": true,
+  "novans": false,
+  "noralph": false,
+  "noksi": false,
+  "noeggs": false,
+  "No rares": true,
+  "Dont send for items under": 1,
+  "Dont send items above": 999999,
+  "Max queue": 1000,
+  "UDM ratios": {
+    "enabled": false,
+    "Upgrade_min_ratio": 1,
+    "Upgrade_max_ratio": 1.03,
+    "Downgrade_min_ratio": 1.01,
+    "Downgrade_max_ratio": 1.035,
+    "Mixed_min_ratio": 1.02,
+    "Mixed_max_ratio": 1.05
+  },
+  "Do Not Trade": [
+    
+  ],
+  "UAID Do Not Trade": {
+
+  },
+  "Do Not Get": [
+    
+  ],
+  "Blacklisted users": [
+    1
+  ],
+  "Blacklist Trade Bots": true,
+  "Dont send more rap": false,
+  "Rap only": false,
+  "Valued only": false,
+  "Send for projecteds": false,
+  "Projected ratio": 0.3,
+  "owned projected ratio": 1,
+  "Value projected at their price": false,
+
+  "Blacklist items underpriced":true,
+  "Blacklist if item price is under x rap":100,
+
+  "milliseconds between sending trades": 4444,
+  "reset queue after": 240,
+  "already sent interval": 60,
+  "Test mode": false,
+
+  "Owner Scraping": {
+    "enabled": true,
+    "Max item pages": 20,
+    "Interval per items": 10
+  },
+
+  "post Rolimons ads": true,
+  "Custom Rolimons Ad": {
+    "Enabled": false,
+    "Sending": [1235488, 1029025, 494291269, 4255053867],
+    "Requesting": [71499623],
+    "Tags": ["upgrade", "demand"]
+  },
+
+  "scan rbxflip users": true,
+  "scan rolimons users": true,
+  "scan ropro users": true,
+  "Scan Database": true,
+  "Scan database interval": 61,
+  "Time Between Checking completeds": 30,
+  "Reset everything once completed": true,
+
+  "Check inbounds": true,
+  "ping if inbound is win above ratio": 1.8,
+  "Counter inbounds": true,
+  "Decline inbound losses": true,
+  "Notify Inbound Losses": false,
+  "Auto Accept Inbounds": false,
+  "Inbound Auto Accept Ratio": 1.5,
+
+  "Check outbounds": true,
+  "Check outbounds interval":20,
+  "minimum outbound gain": 1,
+  "send notif when trade sent": true,
+
+  "Trade sent color": "#0066CC",
+  "Trade completed color": "#F0FF00",
+  "Command prefix": "./",
+  "Console Base Color": [153, 204, 255],
+  "Console Error Color": [255, 106, 72],
+  "Console Trade Color": {
+    "Trade Found": [0, 102, 204],
+    "Trade Found Highlight": [102, 178, 255],
+    "Trade Sent": [204, 204, 0],
+    "Trade Sent Highlight": [255, 255, 0],
+    "Attempting To Send": [102, 0, 204],
+    "Attempting To Send Highlight": [153, 51, 255],
+    "Finding Trades": [96, 96, 96],
+    "Win Inbound": [0, 153, 0]
+  },
+  "Upgrade": true,
+  "Downgrade": true,
+  "Mixed": true,
+  "Prioritize upgrades": false,
+  "Prioritize downgrades": false,
+
+  "Prioritize value trades": false,
+
+  "Max item request": 4,
+  "Max item send": 4,
+  "Min item request":1,
+  "Min item send":1,
+  "Minimum Demand Points": 0,
+  
+  "Minimum items owned": 4,
+  "Maximum items owned": 12,
+
+  "Stay online": true,
+  "IP lock bypass": false,
+  "Proxies Enabled": true,
+
+  "Delete Trade Messages": false,
+  "Send New Trade enabled": true,
+  "Double Check Before Sending": false,
+  "Send Different Trades": true,
+  "Blacklist new limiteds": true,
+  "RBXFLIP Giveaway joiner": true,
+  "Print useless things": true,
+
+  "milliseconds between finding trades": 50,
+  "Max combinations": 500,
+  "Performance Mode": true
+}
